@@ -1,4 +1,21 @@
 :root{
     
 }
+body{background-color: #ffffff;
+font-family: roboto;}
 .logo{}
+.site-nav{color: #212121;}
+.site-nav:hover{color: #2196F3;}
+.site-nav:focus{color:#2196F3}
+
+.head{background-color: #2F303A;}
+.visually-hidden{position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
