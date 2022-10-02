@@ -1,14 +1,39 @@
 :root{
-    
+--brand-color-text: #757575;
+--brand-color-title: #212121;
+--brand-color-accent: #2196F3;
+--brand-color-bg: #2F303A;
+--main-white: #ffffff;
 }
-body{background-color: #ffffff;
-font-family: roboto;}
-.logo{}
-.site-nav{color: #212121;}
-.site-nav:hover{color: #2196F3;}
-.site-nav:focus{color:#2196F3}
-
-.head{background-color: #2F303A;}
+/* колір основного тексту  #212121 */
+/*колір вторинного тексту  #757575  */
+ /* акценти  #2196F3 */
+ /* фон основний білий  #FFFFFF */
+ /* фон вторинний  #F5F4FA */
+ /* фон акценти  #2F303A */
+body{background-color: var(--main-white);
+    color: var(--brand-color-text);
+    font-family: roboto;}
+.logo-web{color: var(--brand-color-accent);
+font-family: 'Raleway';
+    font-weight:700;
+    font-size:26;
+    line-height:1.19;
+    letter-spacing: 0.03;}
+.logo-studio{color: #000000; 
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26;
+    line-height: 1.19;
+    letter-spacing: 0.03;}
+    .logo-studio:hover{color: var(--brand-color-accent);}
+.link{color: var(--brand-color-title);}
+.link:hover, .link:focus {color: var(--brand-color-accent);}
+.link.current{color: var(--brand-color-accent);}
+.site-nav{color: var(--brand-color-text);}
+.site-nav:hover, .site-nav:focus {color: var(--brand-color-accent);}
+.hero{background-color: var(--brand-color-bg);}
+.hero-title{color: var(--main-white);}
 .visually-hidden{position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -19,3 +44,11 @@ font-family: roboto;}
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;}
+  .section{color: var(--brand-color-text);} 
+  .section-title{color: var(--brand-color-title);}
+  .section-part{color: var(--brand-color-title);}
+ /* button */
+ .button{
+    color: var(--main-white);
+    background-color: var(--brand-color-accent);
+ }
