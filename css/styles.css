@@ -13,27 +13,45 @@
  /* фон акценти  #2F303A */
 body{background-color: var(--main-white);
     color: var(--brand-color-text);
-    font-family: roboto;}
+    font-family: roboto, sans-serif
+letter-spacing:}
+    h1,h2,h3,h4{font-family: roboto, sans-serif}
 .logo-web{color: var(--brand-color-accent);
 font-family: 'Raleway';
     font-weight:700;
-    font-size:26;
+    font-size:26px;
     line-height:1.19;
-    letter-spacing: 0.03;}
+    letter-spacing: 0.03em;}
 .logo-studio{color: #000000; 
     font-family: Raleway;
     font-weight: 700;
-    font-size: 26;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03;}
     .logo-studio:hover{color: var(--brand-color-accent);}
-.link{color: var(--brand-color-title);}
+.link{color: var(--brand-color-title);
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .link:hover, .link:focus {color: var(--brand-color-accent);}
 .link.current{color: var(--brand-color-accent);}
-.site-nav{color: var(--brand-color-text);}
+.site-nav{color: var(--brand-color-text);
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .site-nav:hover, .site-nav:focus {color: var(--brand-color-accent);}
 .hero{background-color: var(--brand-color-bg);}
-.hero-title{color: var(--main-white);}
+.hero-title{color: var(--main-white);
+font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;}
 .visually-hidden{position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -47,8 +65,16 @@ font-family: 'Raleway';
   .section{color: var(--brand-color-text);} 
   .section-title{color: var(--brand-color-title);}
   .section-part{color: var(--brand-color-title);}
+  .section-team{background-color: #F5F4FA;}
+  .team-memb{background-color: var(--main-white);}
+
  /* button */
  .button{
     color: var(--main-white);
     background-color: var(--brand-color-accent);
+    cursor: pointer;
  }
+ .footer{background-color: var(--brand-color-bg);}
+ .logo-st-footer{color: var(--main-white);}
+ .geolocation{color: var(--main-white);}
+ .site-nav-f{color: rgba(255, 255, 255, 0.6);}
