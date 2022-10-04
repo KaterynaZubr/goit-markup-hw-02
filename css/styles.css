@@ -198,9 +198,7 @@ h1,h2,h3,h4,p{font-family: 'roboto', sans-serif;}
   }
  
 .geolocation{color: var(--main-white);
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -208,9 +206,7 @@ h1,h2,h3,h4,p{font-family: 'roboto', sans-serif;}
 .geolocation:hover, .geolocation:focus{color: var(--brand-color-accent);}
  
 .site-nav-f{color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
